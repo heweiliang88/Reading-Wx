@@ -14,11 +14,11 @@
 
 ### 技术栈
 
-- Vue3.0 
-- Ant-design-vue
-- Vite 
-- ES6
-- Axios 
+- vue3.0 
+- ant-design-vue
+- vite 
+- es6
+- axios 
 - Nuxt.js 
 - Redis 
 - Mongoose
@@ -31,13 +31,13 @@
 
 ### 规范化设计
 
+- Git规范化
 
+- HTML规范化
 
 ### 文档
 
 接口规范
-
-
 
 ### 功能
 
@@ -62,16 +62,13 @@ ReaderWCP-admin // 后台管理
 ### 部署
 
 ```bash
-// http://localhost:3000
-cd ReaderWCP-back
+cd ReaderWCP-back // http://localhost:3000
 yarn
 yarn dev 
-// http://localhost:6000
-cd ReaderWCP-font
+cd ReaderWCP-font // http://localhost:6000
 yarn 
 yarn dev
-// http://localhost:8000
-cd ReaderWCP-admin
+cd ReaderWCP-admin // http://localhost:8000
 npm install
 npm run dev
 ```
